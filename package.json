@@ -2,11 +2,14 @@
   "name": "backend",
   "version": "1.0.0",
   "description": "Backend part",
+  "type": "module",
   "main": "index.js",
-  "script": "modules",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev" : "nodemon src/index.js"
   },
   "author": "Raushan kumar",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  }
 }
